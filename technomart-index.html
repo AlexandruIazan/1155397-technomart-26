@@ -8,82 +8,74 @@
 
     <header>
         <nav>
-            <div class="firt-line-nav">
-                <a class="logo" href="technomart-index.html">
+        <div class="firt-line-nav">
+            <a class="logo" href="technomart-index.html">
                 <img src="img/logo-technomart.png" alt="Логотип «Техномарт»">
-                </a>
-                <div>
-                    <input type="search" name="Поиск" placeholder="Поиск">
-                </div>
-                <ul>
-                    <li class="favorite">
-                        <a href="#">Закладки</a>
-                    </li>
-                    <li class="basket">
-                        <a href="#">Корзина</a>
-                    </li>
-                    <li class="order">
-                        <a href="#">Оформить заказ</a>
-                    </li>
-                </ul>
-            </div>
-            <p class="description-market">Интернет-магазин строительных материалов<br>
-                 и инструментов для ремонта
-                </p>
-            <div class="contacts">
-                <a href="tel:+78125550555" class="contact-number">+7(812) 555-05-55</a>
-                <p class="contact-adres">г.Санкт-Петербург, Б-Конюшенная, д. 19/8</p>
-            </div>
-            <div class="user-button">
-                <a class="login" href="#">Вход</a>
-                <a class="registration" href="#">Регистрация</a>
-            </div>
-            <ul class="user-menu">
-                <li><a href="#" class="user">Равшан Джамшутович</li>
-                <li><a href="#" class="my-oreder">Мои заказаы</a></li>
-                <li><a href="#" class="personal-account">Личный кабинет</a></li>
+            </a>
+            <form>
+                <input type="search" name="Поиск" placeholder="Поиск">
+                <button type="submit" class="visually-hidden"></button>
+            </form>
+            <ul>
+                <li class="favorite">
+                    <a href="#">Закладки</a>
+                </li>
+                <li class="basket">
+                    <a href="#">Корзина</a>
+                </li>
+                <li class="order">
+                    <a href="#">Оформить заказ</a>
+                </li>
             </ul>
-            <ul class="second-line-nav">
-                <li><a href="technomart-index.html">Главная</a></li>
-                <li><a href="#">Компания</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Спецпредложения</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+        </div>
+        <p class="description-market">Интернет-магазин строительных материалов<br>
+            и инструментов для ремонта
+        </p>
+        <div class="contacts">
+            <a href="tel:+78125550555" class="contact-number">+7(812) 555-05-55</a>
+            <p class="contact-adres">г.Санкт-Петербург, Б-Конюшенная, д. 19/8</p>
+        </div>
+        <ul class="user-navigation">
+            <li><a class="login" href="#">Вход</a></li>
+            <li><a class="registration" href="#">Регистрация</a></li>
+        </ul>
+        <ul class="second-line-nav">
+            <li><a href="technomart-index.html">Главная</a></li>
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
         </nav>
     </header>
 
 <main>
  <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов «Техномарт»</h1>
 
-  <!-- Товары и услуги -->
 
 <section>
     <h2 class="visually-hidden">Товары и услуги</h2>
-    <ul class="banners" >
-        <li class="item-banner">
-            <p>Материалы</p>
+
+      <!-- Промо материалы №1-->
+    <ul class="promo-block-one">
+        <li class="material">
+            <p class="title-promo">Материалы</p>
             <a href="#" class="button-banner"> На любой вкус</a>
         </li>
-        <li class="item-banner">
-            <p>Инструменты</p>
+        <li class="instruments">
+            <p class="title-promo">Инструменты</p>
             <a href="#" class="button-banner">На все случаи</a>
         </li>
-        <li class="item-banner">
-            <p>Техника</p>
+        <li class="construction">
+            <p class="title-promo">Техника</p>
         <a href="#" class="button-banner">Для стройки</a>
         </li>
-        <li class="item-banner">
-            <p>Скидки 50%</p>
-        <a href="#" class="button-banner">На 350 товаров</a>
-        </li>
-        <li class="item-banner">
-            <p>Доставка</p>
-        <a href="Бесплатно" class="button-banner">Бесплатно</a>
-        </li>
     </ul>
+
+    <!-- Слайдеры -->
+
     <ul class="sliders">
         <li class="item-slider">
             <p>Дрели</p>
@@ -96,6 +88,19 @@
             <a href="#" class="open-catalog">Открыть каталог</a>
         </li>
     </ul>
+
+        <!-- Промо материалы №2 -->
+    <ul class="promo-block-two">
+        <li class="discounts">
+            <p class="title-promo">Скидки 50%</p>
+            <a href="#" class="button-banner">На 350 товаров</a>
+        </li>
+        <li class="delivery">
+            <p class="title-promo">Доставка</p>
+            <a href="Бесплатно" class="button-banner">Бесплатно</a>
+        </li>
+    </ul>
+    
 </section>
 
  <!-- Популярные товары -->
@@ -107,53 +112,45 @@
     </header>
         <ul class="catalog">
             <li class="catalog-item">
-                <img src="" alt="Перфоратор BOSCH BFG 9000">
+                <img src="img/perforator-9000.jpg" alt="Перфоратор BOSCH BFG 9000">
                 <div class="hidden-block-item">
                     <a href="#">Купить</a>
                     <a href="#">В закладки</a>
                 </div>
                 <h3><a href="#">Перфоратор BOSCH BFG 9000</a></h3>
-                <p>
-                    <del>32500</del>
-                    <a class="button" href="#">25500 Р</a>
-                </p>
+                    <del>32500 Р.</del>
+                    <p>25500 Р.</p>
             </li>
             <li class="catalog-item">
-                <img src="" alt="Перфоратор BOSCH BFG 3000">
+                <img src="img/perforator-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
                 <div class="hidden-block-item">
                     <a href="#">Купить</a>
                     <a href="#">В закладки</a>
                 </div>
                 <h3><a href="#">Перфоратор BOSCH BFG 3000</a></h3>
-                <p>
-                    <del>22500</del>
-                    <a class="button" href="#">15500 Р</a>
-                </p>
+                    <del>22500 Р.</del>
+                    <p>15500 Р.</p>
             </li>
             <li class="catalog-item">
-                <img src="" alt="Перфоратор BOSCH BFG 6000">
+                <img src="img/perforator-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
                 <div class="hidden-block-item">
                     <a href="#">Купить</a>
                     <a href="#">В закладки</a>
                 </div>
                 <h3><a href="#">Перфоратор BOSCH BFG 6000</a></h3>
-                <p>
-                    <del>30500</del>
-                    <a class="button" href="#">25500 Р</a>
-                </p>
+                    <del>30500 Р.</del>
+                    <p>25500 Р.</p>
             </li>
             <li class="catalog-item">
-                <img src="" alt="Перфоратор BOSCH BFG 2000">
+                <img src="img/perforator-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
                 <div class="hidden-block-item">
                     <a href="#">Купить</a>
                     <a href="#">В закладки</a>
                 </div>
-                <img src="img/perforator-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
                 <h3><a href="#">Перфоратор BOSCH BFG 2000</a></h3>
-                <p>
-                    <a class="button" href="#">12500 Р</a>
-                </p>
-            </div>
+                <p>12500 Р.</p>
+            </li>
+        </ul>
 </section>
 
 <!-- Популярные производители -->
@@ -163,7 +160,6 @@
     <h2>Популярные производители</h2>
     <a class="popular-brans" href="#">Все производители</a>
     </header>
-    </div>
         <ul>
             <li>
                 <a href="#">
@@ -248,6 +244,7 @@
                 <a href="#">Отправить заявку</a>
         </li>
     </ul>
+</section>
 
 <!-- О компании -->
 
@@ -271,11 +268,8 @@
 
 <section>
     <h2>Контакты</h2>
-        <p>
-            Вы можете забрать товар сами, Заехав в наш офис:
-        </p>
+        <p>Вы можете забрать товар сами, Заехав в наш офис:</p>
         <img src="img/map-technomart.png" alt="г.Санкт-Петербург, Б-Конюшенная, д. 19/8">
-        <button class="modal-close" type="button">Закрыть</button>
         <a href="#">Заблудились? Напишите нам!</a>
 </section>
 
@@ -293,7 +287,7 @@
             <li><a href="#">Контакты</a></li>
         </ul>
     </div>
-    <div class="second-line-footer"></div>
+    <div class="second-line-footer">
         <p>г.Санкт-Петербург, Б-Конюшенная, д. 19/8 +7(812) 555-05-55</p>
         <ul>
             <li><a href="#">Материалы</a></li>
@@ -350,7 +344,7 @@
 
 <!-- Попап форма обратной связи -->
 <div class="feedback">
-    <form class="info-form" action="mail@htmlacademy.ru" method="POST">
+    <form class="info-form" action="mail@htmlacademy.ru" method="post">
         <p>
             <label for="username">Ваше имя:</label>
             <input type="text" name="name" id="username" value="" placeholder="Имя Фамилия">
@@ -361,12 +355,12 @@
         </p>
         <p>
             <label for="user-comment">Текст письма:</label>
-            <textarea type="text" name="comment" id="user-comment" value="" placeholder="В свободной форме"></textarea>
+            <textarea name="comment" id="user-comment" placeholder="В свободной форме"></textarea>
         </p>
         <button type="submit">Отправить</button>
     </form>
     <button class="modal-close" type="button">Закрыть</button>
-</section>
+</div>
 
 </body>
 </html>
